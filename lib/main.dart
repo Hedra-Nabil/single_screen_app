@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Text Notes',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
@@ -123,7 +124,10 @@ class _HomePageState extends State<HomePage> {
                               height: 50,
                               decoration: BoxDecoration(
                                 gradient: const LinearGradient(
-                                  colors: [Color(0xFF8B5CF6), Color(0xFF6366F1)],
+                                  colors: [
+                                    Color(0xFF8B5CF6),
+                                    Color(0xFF6366F1),
+                                  ],
                                   begin: Alignment.topLeft,
                                   end: Alignment.bottomRight,
                                 ),
@@ -207,7 +211,9 @@ class _HomePageState extends State<HomePage> {
                                 minLines: 5,
                                 decoration: InputDecoration(
                                   hintText: 'Type something here...',
-                                  hintStyle: TextStyle(color: Colors.grey.shade400),
+                                  hintStyle: TextStyle(
+                                    color: Colors.grey.shade400,
+                                  ),
                                   border: InputBorder.none,
                                   contentPadding: const EdgeInsets.all(16),
                                   counterText: '',
@@ -220,14 +226,19 @@ class _HomePageState extends State<HomePage> {
                               height: 52,
                               decoration: BoxDecoration(
                                 gradient: const LinearGradient(
-                                  colors: [Color(0xFF8B5CF6), Color(0xFFA855F7)],
+                                  colors: [
+                                    Color(0xFF8B5CF6),
+                                    Color(0xFFA855F7),
+                                  ],
                                   begin: Alignment.centerLeft,
                                   end: Alignment.centerRight,
                                 ),
                                 borderRadius: BorderRadius.circular(26),
                                 boxShadow: [
                                   BoxShadow(
-                                    color: const Color(0xFF8B5CF6).withOpacity(0.4),
+                                    color: const Color(
+                                      0xFF8B5CF6,
+                                    ).withOpacity(0.4),
                                     blurRadius: 12,
                                     offset: const Offset(0, 4),
                                   ),

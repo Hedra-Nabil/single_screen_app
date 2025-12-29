@@ -9,8 +9,7 @@ A beautiful, clean-architecture Flutter app for capturing your thoughts.
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="screenshots/screenshot1.png" width="250" alt="Home Screen"/>
-  <img src="screenshots/screenshot2.png" width="250" alt="With Text"/>
+  <img src="screenshots/screenshot1.png" width="300" alt="Text Notes App"/>
 </p>
 
 ## ✨ Features
